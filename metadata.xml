@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<md:EntityDescriptor entityID="https://www.testlakemedelshantering.skane.se/metadata/metadata.xml" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIHcDCCBVigAwIBAgIPAWIEvgV7sGYa6E0IrthGMA0GCSqGSIb3DQEBDQUAMD0x
+CzAJBgNVBAYTAlNFMREwDwYDVQQKDAhJbmVyYSBBQjEbMBkGA1UEAwwSU0lUSFMg
+VHlwZSAzIENBIHYxMB4XDTE4MDMwODA4MzMwNFoXDTIwMDMwODIyNTgwMFowgYAx
+CzAJBgNVBAYTAlNFMRUwEwYDVQQHDAxLcmlzdGlhbnN0YWQxHTAbBgNVBAoMFFNr
+YW5lIExhbnMgTGFuZHN0aW5nMRswGQYDVQQDDBJMYWtlbWVkZWwuc2thbmUuc2Ux
+HjAcBgNVBAUTFVNFMTYyMzIxMDAwMjU1LUYxNzQxNjCCAiIwDQYJKoZIhvcNAQEB
+BQADggIPADCCAgoCggIBAOXdtnBpO/NH9bXyCkAfEqndTw32S3JPdkp1HYJZt6yT
+VFO3sTCRWbV9DzN/YrA2lVnmm87CymqPwiBC3cfky7pFPw1Wxe1srCilHlgz+j00
+Pz3dErHQyrR/0Ofq5SEp9+mawvVsrevtvj0hxMGZbNZzOKAQ1sPBJzzWGhGWqFL6
+8dVfr2wHIZFax4xgG6U8wmcKoB16fhRmHOQRMeUoOnblQjEepaeYtdK17frKulsp
+6CxsZ+XeJ2ZQH0CbjnGpQabZhoOjKFgWa4zu73FRGC5bjuc28usGm7+sBK7JyZp9
+kTg4bdvllQCj3YZ2ZiiwIlPIcc057KPbAN+stAMc7tV1arroPMhku0ZuS4O73O5O
+hy0NgBEc4ma2UM8+EjZlimUV6FanVGnA9639KqDt+MZEicCOwGsp6Yd4904MOjoX
+iC4wL/hPY1eeKXNp643xOnvBTZFGMwhUYgOHM+rjMf3HkwnjaOm2PvVWdW6+2ZMR
+rQg/t8PLR4yh0RNhbAx2o0Y0wYyVOh9EwShYqUB/kBLdg1W4ZZ87NXkwTLyek8sR
+/oac7n7w5af7cxkf+kMVSgzx7GPusefq4cdIGMpN6qpGQOF7bqOgJLN6qnvMv58j
+JEtBnp09XAB0TokBYKxsXXLvghtEHtMXj9jFtg1855e5yfJdIzAtzfkpxZX4cjub
+AgMBAAGjggInMIICIzAfBgNVHSMEGDAWgBQrwmbK/Eh8LyQdhTuacGyvKUrJBTAd
+BgNVHQ4EFgQUqpkI08wga0jHNjyWYSVVozEUq7QwDgYDVR0PAQH/BAQDAgWgMFEG
+A1UdIARKMEgwPAYHKoVwSggDAjAxMC8GCCsGAQUFBwIBFiNodHRwOi8vcnBhLnNp
+dGhzLnNlL3NpdGhzcnBhdjEuaHRtbDAIBgZngQwBAgIwHQYDVR0RBBYwFIISTGFr
+ZW1lZGVsLnNrYW5lLnNlMG8GA1UdHwRoMGYwLaAroCmGJ2h0dHA6Ly9jcmwxLnNp
+dGhzLnNlL3NpdGhzdHlwZTNjYXYxLmNybDA1oDOgMYYvaHR0cDovL2NybDIuc2l0
+aHMuc2p1bmV0Lm9yZy9zaXRoc3R5cGUzY2F2MS5jcmwwHQYDVR0lBBYwFAYIKwYB
+BQUHAwEGCCsGAQUFBwMCMIHOBggrBgEFBQcBAQSBwTCBvjAhBggrBgEFBQcwAYYV
+aHR0cDovL29jc3AxLnNpdGhzLnNlMCkGCCsGAQUFBzABhh1odHRwOi8vb2NzcDIu
+c2l0aHMuc2p1bmV0Lm9yZzAyBggrBgEFBQcwAoYmaHR0cDovL2FpYS5zaXRocy5z
+ZS9zaXRoc3R5cGUzY2F2MS5jZXIwOgYIKwYBBQUHMAKGLmh0dHA6Ly9haWEuc2l0
+aHMuc2p1bmV0Lm9yZy9zaXRoc3R5cGUzY2F2MS5jZXIwDQYJKoZIhvcNAQENBQAD
+ggIBAJmf0D2+bY1Vwn0awzDUwjqJGaourBa5UdLb+1l3C91x/l6ri7t8g2Svw6r5
+YtAhZ+q5LxcrrEVHMd2oTbDtnmZ/vYccXpUZU3leQoh1/jdCn/OZHB7/LemXzhRz
+sXt4YXr8bmyzs0iREebsqLE0YwGNW42DW1fa3y49XPxv1hgRxDEl0A8RzkqiIOlH
+/DBbSxrNtt7Sx2UuLYGGZL09wcs741vrKeQvWBtRpGYmmZtnxIF4y1AiIJpoSaCJ
+L4lWXFjTuz1G0sTbw5gOQmrv9QU0tWARM0EJIJA81TM6JMeJ2gOknov/+F2cwhPl
+kOzVL+HcVQq5RCKjika6Uw7U0XFJgrwgpjF3RcsEBwBuL3qojFjt3t6vdUVhGag1
+P9gckpjThDzotFpqRHdey0J+YIfkEBX+xjUiBdKRbwnBD+6qrTNoMj3XBA32DCDB
+tUCACSGpPPEElzFEMil9Nn2XS0SmPn0+X4Ddb66p4DwhkTZJUOhCrH1t6Z1RidM1
+0ia3MwoFuSPv/0J04ocZmmgzchn2mOnAWYdHbryp9CuWvMAi0cwZCR2JW4PPucqm
++ubgEa98TcrD2SaF+WBfY2L0s8ahl0YR9JRaIRchr4E+boFwzXiXk5rBi1lDP7Au
+wB02F0MLK0eXHUfYuMRT4JYAP89IBRzobpIigbIiwIcW5XwF</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testlakemedelshantering.skane.se/logout" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testlakemedelshantering.skane.se/Saml2/Acs" index="0" isDefault="true" />
+  </md:SPSSODescriptor>
+  <md:ContactPerson contactType="technical">
+    <md:Company>TietoEvry</md:Company>
+    <md:GivenName>Karl</md:GivenName>
+    <md:SurName>Larsson</md:SurName>
+    <md:EmailAddress>karl.larsson@tietoevry.com</md:EmailAddress>
+    <md:TelephoneNumber>0702440712</md:TelephoneNumber>
+  </md:ContactPerson>  
+</md:EntityDescriptor>
