@@ -47,8 +47,8 @@ wB02F0MLK0eXHUfYuMRT4JYAP89IBRzobpIigbIiwIcW5XwF</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testlakemedelshantering.skane.se/logout" />
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testlakemedelshantering.skane.se/Saml2/Acs" index="0" isDefault="true" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lakemedelshantering-test.azurewebsites.net/logout" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lakemedelshantering-test.azurewebsites.net/Saml2/Acs" index="0" isDefault="true" />
   </md:SPSSODescriptor>
   <md:ContactPerson contactType="technical">
     <md:Company>TietoEvry</md:Company>
